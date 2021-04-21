@@ -1,16 +1,19 @@
-import React from 'react';
-import { PageProps } from 'gatsby';
+import React, { ReactNode } from 'react';
 import Navbar from '@/components/Footer';
 import Footer from '@/components/Navbar';
 
 import 'normalize.css';
 import '@/assets/main.css';
 
-const Layout: React.FC<PageProps> = ({ children }): JSX.Element => (
+interface LayoutProps {
+  children: ReactNode;
+}
+
+const Layout: React.FC<LayoutProps> = ({ children }): JSX.Element => (
   <>
-    <Navbar />
-    {children}
     <Footer />
+    {children}
+    <Navbar />
   </>
 );
 

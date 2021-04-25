@@ -1,60 +1,58 @@
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/26466516/107675788-31f54e00-6c77-11eb-96c9-58fd8a4c69ac.png" alt="Gatsby and TypeScript">
-</p>
+# Simply Recipes Gatsby Blog
 
-<p align="center">
-  <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&style=for-the-badge&color=24B36B&labelColor=000000" alt="PRs welcome!" />
+> A Gatsby blog to publish food recipes.
 
-  <img alt="License" src="https://img.shields.io/github/license/jpedroschmitz/gatsby-starter-ts?style=for-the-badge&color=24B36B&labelColor=000000">
+<h1 align="center">
+  <img src="./src/assets/images/screenshot.png" width="600"/>
+</h1>
 
-  <a href="https://twitter.com/intent/follow?screen_name=jpedroschmitz">
-    <img src="https://img.shields.io/twitter/follow/jpedroschmitz?style=for-the-badge&color=24B36B&labelColor=000000" alt="Follow @jpedroschmitz" />
+
+# Built with
+
+<p>
+  <a href='https://www.gatsbyjs.com/'>
+		<img src='https://img.shields.io/badge/gatsby-663399?&style=for-the-badge&logo=gatsby' />
+	</a>
+  &nbsp;
+  <a href='https://www.typescriptlang.org/'>
+    <img src="https://img.shields.io/badge/typescript-007ACC.svg?&style=for-the-badge&logo=typescript&logoColor=white" />
   </a>
 </p>
 
-<br>
 
-A TypeScript starter for Gatsby. No plugins and styling. Exactly the necessary to start 🔥
+## Status
 
-No plugins installed, great for advanced users.
+Currently: _finished_
 
-- 📏 **ESLint** — Pluggable JavaScript linter
-- 💖 **Prettier** - Opinionated Code Formatter
-- 🐶 **Husky** — Use git hooks with ease
-- 📄 **Commitizen** - Conventional commit messages CLI
-- 🚓 **Commitlint** - Lint commit messages
-- 🖌 **Renovate** - Dependency update tool
-- 🚫 **lint-staged** - Run linters against staged git files
-- 🗂 **Root import** - Import folders and files using the `@` prefix.
 
-## 🚀 Getting started
+# Development
 
-The best way to start with this template is using the Gatsby CLI.
+## Available Scripts
 
-```
-npx gatsby new starter-ts https://github.com/jpedroschmitz/gatsby-starter-ts
-```
+- Clone the repo
 
-If you prefer you can clone this repository and run the following commands inside the project folder:
+  ```bash
+  $ git clone https://github.com/francislagares/recipes-blog.git
+  ```
 
-1. `npm install` or `yarn`;
-2. `yarn start`;
+- Install the dependencies by running the following command.
 
-To view the project you can open `http://localhost:8000`.
+  ```bash
+  yarn install
+  ```
 
-## 🤝 Contributing
+- Start the development server:
 
-1. Fork this repository;
-2. Create your branch: `git checkout -b my-new-feature`;
-3. Commit your changes: `git commit -m 'Add some feature'`;
-4. Push to the branch: `git push origin my-new-feature`.
+  ```bash
+  gatsby develop
+  ```
 
-**After your pull request is merged**, you can safely delete your branch.
+  Open [http://localhost:8000](http://localhost:8000) with your browser to see the
+  result.
 
-## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for more information.
 
----
+# Author
 
-Made with ♥ by João Pedro Schmitz
+Created by [@francislagares](https://www.linkedin.com/in/francislagares/) - feel free to contact me!
+* 

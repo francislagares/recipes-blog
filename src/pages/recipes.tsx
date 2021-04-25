@@ -7,8 +7,10 @@ const Recipes = (): JSX.Element => (
   <div>
     <Layout>
       <SEO title="Recipes" />
-      <h1>Recipes Page</h1>
-      <AllRecipes />
+      <main className="page">
+        <h1>Recipes Page</h1>
+        <AllRecipes />
+      </main>
     </Layout>
   </div>
 );

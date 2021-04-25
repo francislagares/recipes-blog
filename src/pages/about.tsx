@@ -4,12 +4,14 @@ import { Link, graphql } from 'gatsby';
 import { StaticImage } from 'gatsby-plugin-image';
 import Layout from '@/components/Layout';
 import RecipesList from '@/components/RecipesList';
+import SEO from '@/components/SEO';
 
 const About = ({ data }): JSX.Element => {
   const recipes = data.allContentfulRecipe.nodes;
 
   return (
     <Layout>
+      <SEO title="About" />
       <main className="page">
         <section className="about-page">
           <article>

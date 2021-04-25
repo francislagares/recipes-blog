@@ -2,9 +2,11 @@ import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 import AllRecipes from '@/components/AllRecipes';
 import Layout from '@/components/Layout';
+import SEO from '@/components/SEO';
 
 const Home = (): JSX.Element => (
   <Layout>
+    <SEO title="Home" />
     <main className="page">
       <header className="hero">
         <StaticImage

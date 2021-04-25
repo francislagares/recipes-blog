@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
 import Layout from '@/components/Layout';
+import SEO from '@/components/SEO';
 import setupTags from '@/utils/setupTags';
 
 const Tags = ({ data }): JSX.Element => {
@@ -9,6 +10,7 @@ const Tags = ({ data }): JSX.Element => {
 
   return (
     <Layout>
+      <SEO title="Tags" />
       <main className="page">
         <section className="tags-page">
           {newTags.map((tag, index) => {

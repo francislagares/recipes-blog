@@ -5,11 +5,18 @@ require('dotenv').config({
 module.exports = {
   // Since `gatsby-plugin-typescript` is automatically included in Gatsby you
   // don't need to define it here (just if you need to change the options)
+  /* Your site config here */
+  siteMetadata: {
+    title: 'Simply Recipes',
+    description: 'Nice and clean recipes site',
+    author: 'Francis Lagares',
+  },
 
   plugins: [
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`, // Needed for dynamic images
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
